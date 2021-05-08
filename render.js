@@ -28,19 +28,17 @@ function randPage() {
 function randGenerator(){
     let i = Math.random();
     if(i < 0.15) {
-        return 'DJ/djIndex.html'; 
+        return 'https://github.com/eyang703/Bored-Heels.github.io/blob/c62002674bd8db842069eacf1f3b7b859ffb51fb/DJ/djIndex.html'; 
     } else if(i < 0.3) {
-        return 'ML/madlibs.html';
+        return 'https://github.com/eyang703/Bored-Heels.github.io/blob/c62002674bd8db842069eacf1f3b7b859ffb51fb/ML/madlibs.html';
     } else if(i < 0.45) {
-        return 'Movie/movie.html'
+        return 'https://github.com/eyang703/Bored-Heels.github.io/blob/c62002674bd8db842069eacf1f3b7b859ffb51fb/Movie/movie.html'
     } else if(i < 0.60) {
-        return 'RW/randWord.html';
-    } else if(i < 0.75) {
-        return '2048/2048.html';
-    } else if(i < 0.9) {
-        return 'love/love.html';
+        return 'https://github.com/eyang703/Bored-Heels.github.io/blob/c62002674bd8db842069eacf1f3b7b859ffb51fb/RW/randWord.html';
+    }  else if(i < 0.75) {
+        return 'https://github.com/eyang703/Bored-Heels.github.io/blob/c62002674bd8db842069eacf1f3b7b859ffb51fb/love/love.html';
     } else {
-        return 'TTT/tictactoe.html';
+        return 'https://github.com/eyang703/Bored-Heels.github.io/blob/c62002674bd8db842069eacf1f3b7b859ffb51fb/TTT/tictactoe.html';
     }
 }
 function homePage() {
