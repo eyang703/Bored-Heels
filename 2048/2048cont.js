@@ -1,4 +1,4 @@
-import Game from "/2048/2048engine/game.js";
+import Game from "https://github.com/eyang703/Bored-Heels.github.io/blob/4a5e3b3098bfa59869d4a135fbca9ea23a7abe9e/2048/2048engine/game.js";
 
 let game = new Game(4); 
 
