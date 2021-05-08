@@ -24,7 +24,7 @@ export async function getMovie() {
         const options = {
             method: 'GET',
             url: 'https://movie-database-imdb-alternative.p.rapidapi.com/',
-            params: {i: movieID, type: 'movie', r: 'json', plot: 'short'},
+            params: {i: 'tt4154796', type: 'movie', r: 'json', plot: 'short'},
             headers: {
               'x-rapidapi-key': 'eabdbc6435mshb582273d87fbb75p130981jsnc085bd514882',
               'x-rapidapi-host': 'movie-database-imdb-alternative.p.rapidapi.com'
